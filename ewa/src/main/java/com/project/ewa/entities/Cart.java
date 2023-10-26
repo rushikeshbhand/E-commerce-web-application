@@ -39,9 +39,8 @@ public class Cart {
     private Product product;
     /*
     @OneToMany(mappedBy = "cart")
-    private List<Product> products; // Use a List to store multiple Product entities
+    private List<Product> products; 
 
-    // Add the following relationships for one-to-one relationships with Order and Customer
     @OneToOne(mappedBy = "cart")
     private Order order;
     */
