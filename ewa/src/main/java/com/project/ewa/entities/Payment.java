@@ -36,8 +36,8 @@ public class Payment {
     @Column(name = "payment_method")
     private String paymentMethod;
 
-//    @OneToOne // Use OneToOne since it's a one-to-one relationship
-//    @JoinColumn(name = "order_id") // Define the foreign key column
+//    @OneToOne
+//    @JoinColumn(name = "order_id") 
 //    private Order order;
 //    
 //    @ManyToOne
