@@ -31,6 +31,4 @@ public class Category {
     // Establishing a one-to-many relationship with Product entities
     //@OneToMany(mappedBy = "category")
     //private Set<Product> products;
-    
-    // Constructors, getters, and setters as needed
 }
